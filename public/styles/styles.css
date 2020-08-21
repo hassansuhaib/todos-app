@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #AEB6BF;
+}
+
+header {
+    background-color: #34495E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 70%;
+}
+
+.all-todos {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+input[type=checkbox], .todo button {
+    margin: 10px 20px 0 0;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10;
+}
+
+.todo a:hover {
+    text-decoration: underline;
+}
+
+input[type=text] {
+    padding: 5px;
+}
+
+#hide {
+    margin-bottom: 20px;
+}
